@@ -10,4 +10,9 @@ public class AuthController {
     public String signup(){
         return "Signup page.";
     }
+    @RequestMapping("/logout")
+    public String logout() {
+        return "logout Page";
+    }
+   
 }
